@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+ 
+
+  body {
+    font-family: sans-serif;
+    color: #cacaca;
+    font-size: 24px;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 80px 400px auto 250px;
+    grid-template-rows: 80px auto;
+  }
+  menu{
+    background-color:#7048e8;
+    grid-column: 2/span 3;
+  }
+  nav{
+    background-color: #343a40 ;
+    grid-row: span 2;
+  }
+  section{
+    grid-row: 2;
+    grid-column: 2;
+    color: black;
+    background-color: whitesmoke;
+  }
+  main{
+    grid-row: 2;
+    grid-column: 3;
+    color: black;
+  }
+  aside{
+    grid-row: 2;
+    grid-column: 4;
+    color: black;
+    background-color: whitesmoke;
+  }

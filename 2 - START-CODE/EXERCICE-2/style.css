@@ -1,0 +1,35 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center; 
+}
+.table{
+  display: grid;
+  grid-template-columns: repeat(4,200px);
+  grid-template-rows:repeat();
+ 
+}
+.column1{
+  color: black;
+  font-weight: bold;
+}
+.chair,.worker,.four2,.laid{
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+.item{
+  padding: 20px ;
+}
+.row3,.row5{
+  background-color: whitesmoke;
+}
